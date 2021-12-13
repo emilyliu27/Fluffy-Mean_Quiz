@@ -1,0 +1,122 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fluffy-Mean Quiz</title>
+	<link rel="stylesheet" type="text/css" href="css/finish.css">
+</head>
+
+<body>
+
+	<!--Question 1-->
+	<div id="Question 1">
+		<a href="index.html">
+			<button class="home">Home</button> 
+		</a>
+		<h1 id="text">Question 1</h1>
+		<img src="images/hot dog.jpeg" alt="hot dog">
+		<h2 id="text">Is a hot dog a sandwich?</h2>
+		<button class="answer1" onclick="return nextpage('Question 2b','Question 1')">Yes</button> 
+		<button class="answer2" onclick="return nextpage('Question 2a','Question 1')">No</button> 
+	</div>
+
+	<!--Question 2a-->
+	<div id="Question 2a" style="display:none">
+		<a href="index.html">
+			<button class="home">Home</button> 
+		</a>
+		<h1 id="text">Question 2</h1>
+		<img src="images/cake.png" alt="cake">
+		<h2 id="text">Do you prefer cake or pie?</h2>
+		<button class="answer1" onclick="return nextpage('Question 3c','Question 2a')">Cake</button> 
+		<button class="answer2" onclick="return nextpage('Question 3a','Question 2a')">Pie</button> 
+	</div>
+
+	<!--Question 2b-->
+	<div id="Question 2b" style="display:none">
+		<a href="index.html">
+			<button class="home">Home</button> 
+		</a>
+		<h1 id="text">Question 2</h1>
+		<img src="images/sparkling water.png" alt="sparkling water">
+		<h2 id="text">Do you like sparkling water?</h2>
+		<button class="answer1" onclick="return nextpage('Question 3c','Question 2b')">Yes</button> 
+		<button class="answer2" onclick="return nextpage('Question 3b','Question 2b')">No</button> 
+	</div>
+
+	<!--Question 3a-->
+	<div id="Question 3a" style="display:none">
+		<a href="index.html">
+			<button class="home">Home</button> 
+		</a>
+		<h1 id="text">Question 3</h1>
+		<img src="images/hot chocolate.jpeg" alt="hot chocolate">
+		<h2 id="text">Does salt go in hot chocolate?</h2>
+		<a href="mean.html">
+			<button class="answer1">yes</button> 
+		</a>
+		<button class="answer2" onclick="return nextpage('Question 4a','Question 3a')">No</button> 
+	</div>
+
+	<!--Question 3b-->
+	<div id="Question 3b" style="display:none">
+		<a href="index.html">
+			<button class="home">Home</button> 
+		</a>
+		<h1 id="text">Question 3</h1>
+		<img src="images/lemonade.png" alt="lemonade">
+		<h2 id="text">Is lemonade juice?</h2>
+		<a href="fluffy.html">
+			<button class="answer1">Yes</button> 
+		</a>
+		<button class="answer2" onclick="return nextpage('Question 4b','Question 3b')">No</button> 
+	</div>
+
+	<!--Question 3c-->
+	<div id="Question 3c" style="display:none">
+		<a href="index.html">
+			<button class="home">Home</button> 
+		</a>
+		<h1 id="text">Question 3</h1>
+		<img src="images/ice cream.jpeg" alt="ice cream">
+		<h2 id="text">Do you prefer ice cream or froyo?</h2>
+		<button class="answer1" onclick="return nextpage('Question 4a','Question 3c')">Ice cream</button> 
+		<button class="answer2" onclick="return nextpage('Question 4b','Question 3c')">Froyo</button> 
+	</div>
+
+	<!--Question 4a-->
+	<div id="Question 4a" style="display:none">
+		<a href="index.html">
+			<button class="home">Home</button> 
+		</a>
+		<h1 id="text">Question 4</h1>
+		<img src="images/spinach.jpeg" alt="spinach">
+		<h2 id="text">Do you prefer your spinach raw or cooked?</h2>
+		<a href="vers_mean.html">
+			<button class="answer1">Raw</button> 
+		</a>
+		<a href="vers.html">
+			<button class="answer2">Cooked</button> 
+		</a>
+	</div>
+
+	<!--Question 4b-->
+	<div id="Question 4b" style="display:none">
+		<a href="index.html">
+			<button class="home">Home</button> 
+		</a>
+		<h1 id="text">Question 4</h1>
+		<img src="images/burger.png" alt="burger">
+		<h2 id="text">Are burgers acceptable dinner foods?</h2>
+		<a href="vers_fluffy.html">
+			<button class="answer1">Yes</button> 
+		</a>
+		<a href="vers.html">
+			<button class="answer2">No</button> 
+		</a>
+	</div>
+
+</body>
+
+<script src="js/finish.js"></script>
+
+</html>
